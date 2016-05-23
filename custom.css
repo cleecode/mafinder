@@ -1,0 +1,378 @@
+/* ****************************************** */
+/* icons 
+/* ****************************************** */
+
+.glyphicon-earphone,
+.glyphicon-envelope,
+.glyphicon-calendar {
+	font-size: 2em;
+	color: #029e8c;
+}
+
+.glyphicon-tasks,
+.glyphicon-hdd, 
+.glyphicon-list-alt {
+	font-size: 4em;
+	color: #015249;
+}
+
+h5 {
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+/* ****************************************** */
+/* navigation 
+/* ****************************************** */
+
+.navbar {
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #015249;
+	transition: all 2s ease; 
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-right {
+	font-size: 1.2em;
+}
+
+.navbar-default {
+	/*background-color: white;*/
+	border-color: transparent;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
+.navbar-home {
+	/*background-color: #57BC90;*/
+    background-color:rgba(0, 70, 40, 0.0);
+
+}
+
+.navbar-home-bottom {
+	/*background-color: white;*/
+	background-color: #000;
+	color: #000;
+	border-color: transparent;
+}
+
+.navbar-projects {
+	background-color: #77C9D4;
+}
+
+.navbar-contacts {
+	background-color: #015249;
+}
+
+
+/* ****************************************** */
+/* intro 
+/* ****************************************** */
+
+#intro {
+	background: url('img/wall.jpg');
+    background-size: cover;
+    /*background-color:rgba(0, 70, 40, 0.8);*/
+    min-height: 600px;
+	text-align: center;
+	letter-spacing: 0.2em;
+  	background-attachment: fixed;  
+  	font-family: 'Josefin Sans', sans-serif;
+ /* 	margin-left: 50px;
+  	margin-right: 50px;*/
+/*   border-top-left-radius: 25px;
+    border-top-right-radius: 25px;*/  
+    border: 2px solid #000000;
+    padding: 5px 40px; 
+}
+
+.intro-start {
+	background-color:#fff;
+
+}
+
+.intro-bottom {
+	font-family: 'Josefin Sans', sans-serif;
+	min-height: 400px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.slide {
+  position: relative;
+  /*padding: 25vh 0%; */
+  min-height: 60vh;
+  /* width: 100vw; */
+   box-sizing: border-box; 
+  /*box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);*/
+	transform-style: inherit;
+}
+
+.overlay {
+	position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0, 70, 40, 0.3);
+    /*background-color: #57BC90;*/
+    z-index:100;
+    color:white;
+}
+
+
+.intro-text h2 {
+	padding-top: 150px;
+	color: #000;
+	font-size: 2em;
+	margin-bottom: 10px;
+	background: #fff;
+	/*background: linear-gradient(290deg, #fff 50%, #015249 50%);*/
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.intro-text h3 {
+	font-size: 1.2em;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.intro-text p {
+	font-size: 1.2em;
+	color: #fff;
+	-webkit-animation-delay: 1s;
+	-webkit-background-clip: text;
+}
+
+.intro-text hr {
+	border: solid 1px #fff;
+	width: 100px;
+	-webkit-animation-delay: 1s;
+}
+
+/* ****************************************** */
+/* resume 
+/* ****************************************** */
+
+.resume-top {
+	margin-top: 50px;
+}
+
+
+/* ****************************************** */
+/* contact 
+/* ****************************************** */
+
+
+#contact {
+	/*background: url('img/green.jpg');*/
+	background-color: #015249;
+    background-size: cover;
+    min-height: 800px;
+	text-align: center;
+	letter-spacing: 0.2em;
+  	background-attachment: fixed;  
+  	font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact-text {
+	background-color: #015249;
+}
+
+.contact-text h3 {
+	font-size: 2em;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	background: #fff;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#contact p {
+	color: #fff;
+	margin: 0 50px 0 50px;
+}
+
+.overlay-contact {
+	position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    /*background-color:rgba(0, 0, 100, 0.6);*/
+    background-color: #015249;
+    z-index:100;
+    color:white;
+}
+
+.highlight {
+	padding-top: 10px;
+	color: #029e8c;
+}
+
+/* ****************************************** */
+/* portfolio
+/* ****************************************** */
+
+#portfolio {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 30px;
+
+}
+
+.portfolio-container {
+	margin-bottom: 25px;
+}
+
+.portfolio-item {
+	margin-top: 500px;
+}
+
+.tags {
+	text-align: left;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.tags li{
+	display: inline-block;
+	font-size: 0.8em;
+	border: 1px solid #888888;
+	color: #888888;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	list-style: none;
+	max-width: 100px;
+	margin-right: 5px;
+	padding-left: 2px;
+	border-radius: 10%;
+}
+
+.portfolio-button {
+	margin-top: 50px;
+}
+
+.img-responsive {
+	border-radius: 5%;
+	border: 1px solid #999;
+}
+
+.portfolio-title {
+	padding-top: 75px;
+	padding-bottom: 30px;
+	background-color: #77C9D4;
+	color: #fff;
+}
+
+
+#res-2,
+#res-4 {
+	background: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#res-3 {
+	background: #fff;
+	background: linear-gradient(45deg, #fff 50%, #77C9D4 50%);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #fff;
+}
+
+#res-1 {
+	background: #77C9D4;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #fff;
+}
+
+.p1-info {
+    height: 380px;
+    background: url('img/areamood.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.p2-info {
+    height: 380px;
+    background: url('img/landingpage.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.p3-info {
+    height: 380px;
+    background: url('img/foodchoice.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.p4-info {
+    height: 380px;
+    background: url('img/seattle.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.p-tags {
+	text-align: left;
+	padding-left: 0px;
+}
+
+.p-tags li{
+	font-size: 1em;
+	color: #000;
+    list-style: none;
+	max-width: 100px;
+	margin-right: 5px;
+	border-radius: 10%;
+}
+
+/* ****************************************** */
+/* Letter
+/* ****************************************** */
+
+#letter {
+	text-align: left;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #000;
+}
+
+#letter a{
+	color: blue;
+}
+
+#search {
+	padding-top: 20px;
+}

@@ -10,7 +10,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 		  	<ul class="nav navbar-nav navbar-right">
-			    <li><a href="projects.php">Search</a></li>
+			    <li><a href="#mapSection">Search</a></li>
 		  	</ul>
 		</div>
  	</div>

@@ -14,14 +14,11 @@
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="custom.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
-		<script src="js/holder.js"></script>
+		<!--<script src="js/holder.js"></script>-->
+		<script src="js/lodash.js"</script>
+		<script src="js/angular.min.js"</script>
+		<script src="js/angular-simple-logger.js"></script>
 		<script src="js/angular-google-maps.min.js"></script>
-		<script src="js/app.js"></script>
-	<style>
-		#map {
-			width: 400px;
-			height: 400px;
-		}
-    </style>
+		<script src="js/app.js"></script>		
 </head>
 <body> 

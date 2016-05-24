@@ -20,7 +20,13 @@
     <div class="row content">
         <!-- Google Map -->
         <div class="col-md-7">
-            <div id="map"><img src="holder.js/645x645"></div>
+            <div id="map">
+				 
+			<!--
+			<img src="holder.js/645x645">
+			-->
+			
+			</div>
         </div>
         <!-- Side Panel -->
         <div class="col-md-5">
